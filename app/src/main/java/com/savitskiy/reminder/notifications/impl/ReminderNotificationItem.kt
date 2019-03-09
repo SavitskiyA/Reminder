@@ -19,7 +19,7 @@ class ReminderNotificationItem(private val context: Context) : PushNotificationI
 
     override fun message() = context.resources.getString(R.string.push_reminder_message)
 
-    override fun smallIcon() = R.mipmap.ic_launcher_round
+    override fun smallIcon() = R.drawable.ic_paw
 
     override fun pendingIntent() = PendingIntent.getActivity(
         context,

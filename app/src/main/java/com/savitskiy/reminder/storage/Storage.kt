@@ -5,5 +5,7 @@ package com.savitskiy.reminder.storage
  */
 interface Storage {
     fun getLastRun(): Long
+    fun isFirstRun(): Boolean
     fun setLastRun(millisec: Long)
+    fun setIsFirstRun(isFirstRun: Boolean)
 }
