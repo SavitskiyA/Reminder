@@ -30,6 +30,26 @@
             android:name=".services.RecentRunService"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
+        <receiver
+            android:name=".receivers.BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".receivers.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="me.theoptimal.intent.action.ALARM" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
