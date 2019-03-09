@@ -10,9 +10,7 @@ import com.savitskiy.reminder.services.RecentRunService
  */
 class AlarmReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
-        if (intent?.action == ACTION) {
-            RecentRunService.enqueueWork()
-        }
+        RecentRunService.enqueueWork()
     }
 
     companion object {

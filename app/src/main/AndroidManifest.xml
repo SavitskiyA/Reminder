@@ -47,7 +47,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="me.theoptimal.intent.action.ALARM" />
+                <action android:name="com.savitskiy.reminder.intent.action.ALARM" />
             </intent-filter>
         </receiver>
 
