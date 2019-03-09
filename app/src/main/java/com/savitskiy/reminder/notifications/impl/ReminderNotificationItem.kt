@@ -2,7 +2,6 @@ package com.savitskiy.reminder.notifications.impl
 
 import android.app.PendingIntent
 import android.content.Context
-import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import com.savitskiy.reminder.MainActivity
 import com.savitskiy.reminder.R
