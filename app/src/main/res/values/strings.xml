@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Reminder</string>
     <string name="reminder_channel">reminder_channel</string>
+    <string name="push_reminder_title">Forgot about me?</string>
+    <string name="push_reminder_message">Sign in and find out what\'s new with friends</string>
 </resources>
