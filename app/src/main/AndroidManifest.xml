@@ -26,6 +26,10 @@
             android:name="com.google.firebase.messaging.default_notification_channel_id"
             android:value="notification_channel_id" />
 
+        <service
+            android:name=".services.RecentRunJobIntentService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
     </application>
 
 </manifest>
